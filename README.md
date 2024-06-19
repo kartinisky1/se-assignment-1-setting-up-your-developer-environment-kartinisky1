@@ -12,28 +12,99 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-
+   Visit the Windows 11 Download page.
+Click on the "Download Now" button to download the Windows 11 Installation Assistant.
+Run the Installation Assistant and follow the on-screen instructions to upgrade your system to Windows 11.
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
+   Go to the Visual Studio Code Download page.
+Choose the appropriate version for Windows and click on the "Download" button.
+Once downloaded, run the installer and follow the setup wizard.
+Configure Visual Studio Code:
+Launch Visual Studio Code.
+
+Install essential extensions such as Python, GitLens, and Prettier by navigating to the Extensions view (Ctrl+Shift+X).
+5. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   Install Git:
 
-4. Install Necessary Programming Languages and Runtimes:
+Visit the Git download page.
+Download the Windows installer and run it.
+Follow the installation steps, leaving the default settings unless you have specific requirements.
+
+Configure Git:
+
+Open Git Bash and configure your user name and email:
+sh
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a GitHub Account:
+
+Go to the GitHub website.
+Click on "Sign up" and follow the instructions to create an account.
+Initialize a Git Repository:
+
+Open Git Bash in your project directory.
+Initialize a new Git repository:
+sh
+Copy code
+git init
+Add your files and make your first commit:
+sh
+Copy code
+git add .
+git commit -m "Initial commit"
+
+6. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+Install Python:
 
-5. Install Package Managers:
+Download the latest version of Python from the official website.
+Run the installer and ensure to check the box "Add Python to PATH".
+
+8. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   Install pip (Python Package Manager):
 
-6. Configure a Database (MySQL):
+Open Command Prompt and verify pip installation:
+sh
+Copy code
+pip --version
+
+10. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+Download and Install MySQL:
 
-7. Set Up Development Environments and Virtualization (Optional):
+Visit the MySQL Installer page.
+Download the MySQL Installer and run it.
+Follow the setup wizard to install MySQL and configure the server.
+
+12. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+Install Docker:
 
-8. Explore Extensions and Plugins:
+Go to the Docker download page.
+Download Docker Desktop for Windows and run the installer.
+Follow the setup instructions and start Docker Desktop.
+
+14. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+Enhance Visual Studio Code:
 
-9. Document Your Setup:
+Open Visual Studio Code and go to the Extensions view (Ctrl+Shift+X).
+Search for and install useful extensions such as:
+Python
+GitLens
+Prettier - Code formatter
+ESLint
+
+Customize Settings:
+
+Open the settings (File > Preferences > Settings or Ctrl+,).
+Customize settings to your preferences, such as enabling auto-save, setting the default formatter, etc.
+
+16. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
 #Deliverables:
